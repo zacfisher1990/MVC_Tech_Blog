@@ -1,20 +1,24 @@
 <div class="column">
+  {{!-- log in header --}}
 <h2 class="title pb-4">login:</h2><hr>
 <form class="login-form">
   <div>
-    <label for="email-login">email:</label>
-    <input type="text" id="email-login" />
+    {{!-- username input --}}
+    <label for="username-login">username:</label>
+    <input type="text" id="username-login" />
   </div>
   <div>
+    {{!-- password input --}}
     <label for="password-login">password:</label>
     <input type="password" id="password-login" />
   </div>
   <div>
+    {{!-- submit button --}}
     <button type="submit" class="button is-primary">login</button>
     <a href="/signup"><button type="button" class="button is-danger">signup</button></a>
   </div>
 </form>
 </div>
 
-<!-- javascript file-->
+{{!-- javascript file --}}
 <script src="/javascript/login.js"></script>
