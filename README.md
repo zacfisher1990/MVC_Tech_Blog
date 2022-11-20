@@ -15,6 +15,7 @@
   
   ## Installation
   The app runs on Heroku.
+  https://tech-blog-blog-for-tech.herokuapp.com/
 
   ## Usage
   The user can create an account and add posts, and comments.
