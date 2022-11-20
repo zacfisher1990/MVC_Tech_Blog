@@ -1,7 +1,6 @@
 const savePost = document.getElementById('save-post');
 savePost.addEventListener('click', async (event) => {
   event.preventDefault();
-
   const title = document.getElementById('title-of-post').value;
   const post_content = document.getElementById('content-of-post').value;
   const id = window.location.toString().split('/')[
